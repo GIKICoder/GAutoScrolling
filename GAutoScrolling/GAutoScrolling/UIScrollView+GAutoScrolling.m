@@ -163,6 +163,9 @@ static char UIScrollViewAutoScrollDirection;
 
 - (void)setRepeat:(NSInteger)repeat
 {
+    if (repeat == NSIntegerMax) {
+        repeat = 0;
+    }
     [self willChangeValueForKey:@"repeat"];
     objc_setAssociatedObject(self,
                              &UIScrollViewAutoScrollRepeat,
