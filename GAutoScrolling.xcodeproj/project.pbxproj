@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4DA28C2C5CD2910032B168 /* GAutoScrollingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DA28B2C5CD2910032B168 /* GAutoScrollingSwift.swift */; };
 		2B5D8547240271BB0050BFE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D8546240271BB0050BFE6 /* AppDelegate.m */; };
 		2B5D854A240271BB0050BFE6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D8549240271BB0050BFE6 /* SceneDelegate.m */; };
 		2B5D854D240271BB0050BFE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D854C240271BB0050BFE6 /* ViewController.m */; };
@@ -17,6 +18,10 @@
 		2B5D8562240271BD0050BFE6 /* GAutoScrollingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D8561240271BD0050BFE6 /* GAutoScrollingTests.m */; };
 		2B5D856D240271BD0050BFE6 /* GAutoScrollingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D856C240271BD0050BFE6 /* GAutoScrollingUITests.m */; };
 		2B5D857D240271ED0050BFE6 /* UIScrollView+GAutoScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D857C240271ED0050BFE6 /* UIScrollView+GAutoScrolling.m */; };
+		2B6943EC2C5CD61100202769 /* AutoTagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6943EB2C5CD61100202769 /* AutoTagsViewController.swift */; };
+		2B6943F82C5CDE3E00202769 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6943EF2C5CDE3E00202769 /* TagCell.swift */; };
+		2B6943F92C5CDE3E00202769 /* TagsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6943F12C5CDE3E00202769 /* TagsCollectionView.swift */; };
+		2B6943FA2C5CDE3E00202769 /* TagsFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6943F32C5CDE3E00202769 /* TagsFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B4DA28A2C5CD2910032B168 /* GAutoScrolling-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GAutoScrolling-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B4DA28B2C5CD2910032B168 /* GAutoScrollingSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAutoScrollingSwift.swift; sourceTree = "<group>"; };
 		2B5D8542240271BB0050BFE6 /* GAutoScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAutoScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5D8545240271BB0050BFE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B5D8546240271BB0050BFE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +64,10 @@
 		2B5D856E240271BD0050BFE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5D857B240271ED0050BFE6 /* UIScrollView+GAutoScrolling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GAutoScrolling.h"; sourceTree = "<group>"; };
 		2B5D857C240271ED0050BFE6 /* UIScrollView+GAutoScrolling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GAutoScrolling.m"; sourceTree = "<group>"; };
+		2B6943EB2C5CD61100202769 /* AutoTagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTagsViewController.swift; sourceTree = "<group>"; };
+		2B6943EF2C5CDE3E00202769 /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		2B6943F12C5CDE3E00202769 /* TagsCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsCollectionView.swift; sourceTree = "<group>"; };
+		2B6943F32C5CDE3E00202769 /* TagsFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4DA2892C5CD2760032B168 /* GAutoScroling-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2B4DA28B2C5CD2910032B168 /* GAutoScrollingSwift.swift */,
+				2B4DA28A2C5CD2910032B168 /* GAutoScrolling-Bridging-Header.h */,
+			);
+			path = "GAutoScroling-Swift";
+			sourceTree = "<group>";
+		};
 		2B5D8539240271BB0050BFE6 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +127,7 @@
 		2B5D8544240271BB0050BFE6 /* GAutoScrolling */ = {
 			isa = PBXGroup;
 			children = (
+				2B4DA2892C5CD2760032B168 /* GAutoScroling-Swift */,
 				2B5D857A240271C40050BFE6 /* GAutoScrolling */,
 				2B5D8545240271BB0050BFE6 /* AppDelegate.h */,
 				2B5D8546240271BB0050BFE6 /* AppDelegate.m */,
@@ -114,6 +135,8 @@
 				2B5D8549240271BB0050BFE6 /* SceneDelegate.m */,
 				2B5D854B240271BB0050BFE6 /* ViewController.h */,
 				2B5D854C240271BB0050BFE6 /* ViewController.m */,
+				2B6943EB2C5CD61100202769 /* AutoTagsViewController.swift */,
+				2B6943F72C5CDE3E00202769 /* Tags */,
 				2B5D854E240271BB0050BFE6 /* Main.storyboard */,
 				2B5D8551240271BD0050BFE6 /* Assets.xcassets */,
 				2B5D8553240271BD0050BFE6 /* LaunchScreen.storyboard */,
@@ -148,6 +171,40 @@
 				2B5D857C240271ED0050BFE6 /* UIScrollView+GAutoScrolling.m */,
 			);
 			path = GAutoScrolling;
+			sourceTree = "<group>";
+		};
+		2B6943F02C5CDE3E00202769 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2B6943EF2C5CDE3E00202769 /* TagCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2B6943F22C5CDE3E00202769 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B6943F12C5CDE3E00202769 /* TagsCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B6943F42C5CDE3E00202769 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2B6943F02C5CDE3E00202769 /* Cell */,
+				2B6943F22C5CDE3E00202769 /* View */,
+				2B6943F32C5CDE3E00202769 /* TagsFlowLayout.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		2B6943F72C5CDE3E00202769 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				2B6943F42C5CDE3E00202769 /* CollectionView */,
+			);
+			path = Tags;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +274,7 @@
 				TargetAttributes = {
 					2B5D8541240271BB0050BFE6 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1540;
 					};
 					2B5D855C240271BD0050BFE6 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -281,9 +339,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B5D854D240271BB0050BFE6 /* ViewController.m in Sources */,
+				2B6943FA2C5CDE3E00202769 /* TagsFlowLayout.swift in Sources */,
+				2B6943F92C5CDE3E00202769 /* TagsCollectionView.swift in Sources */,
+				2B6943EC2C5CD61100202769 /* AutoTagsViewController.swift in Sources */,
 				2B5D8547240271BB0050BFE6 /* AppDelegate.m in Sources */,
 				2B5D8558240271BD0050BFE6 /* main.m in Sources */,
+				2B6943F82C5CDE3E00202769 /* TagCell.swift in Sources */,
 				2B5D857D240271ED0050BFE6 /* UIScrollView+GAutoScrolling.m in Sources */,
+				2B4DA28C2C5CD2910032B168 /* GAutoScrollingSwift.swift in Sources */,
 				2B5D854A240271BB0050BFE6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GAutoScrolling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,6 +525,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GAutoScrolling.GAutoScrolling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GAutoScrolling/GAutoScroling-Swift/GAutoScrolling-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -469,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GAutoScrolling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,6 +545,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GAutoScrolling.GAutoScrolling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GAutoScrolling/GAutoScroling-Swift/GAutoScrolling-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -484,6 +554,7 @@
 		2B5D8575240271BD0050BFE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GAutoScrollingTests/Info.plist;
@@ -503,6 +574,7 @@
 		2B5D8576240271BD0050BFE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GAutoScrollingTests/Info.plist;
@@ -522,6 +594,7 @@
 		2B5D8578240271BD0050BFE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GAutoScrollingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -539,6 +612,7 @@
 		2B5D8579240271BD0050BFE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GAutoScrollingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
